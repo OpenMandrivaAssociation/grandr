@@ -12,6 +12,8 @@ BuildRequires: libx11-devel >= 1.0.0
 BuildRequires: libxrandr-devel >= 1.1.0.2
 BuildRequires: libxrender-devel >= 0.9.0.2
 BuildRequires: x11-util-macros >= 1.0.1
+BuildRequires: libgtk+2-devel
+BuildRequires: libGConf2-devel
 
 %description
 grandr is used to set the screen size, orientation and/or reflection using the
