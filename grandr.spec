@@ -39,4 +39,4 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %{_bindir}/grandr
-#%{_mandir}/man1/grandr.1x.bz2
+#%{_mandir}/man1/grandr.*
