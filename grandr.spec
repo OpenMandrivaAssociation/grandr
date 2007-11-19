@@ -3,6 +3,7 @@ Version: 0.1
 Release: %mkrel 1
 Summary: Interface to RandR extension
 Group: System/X11
+URL:    http://www.x.org/
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 Patch0: grandr-0.1-strcmp.patch
 License: MIT
