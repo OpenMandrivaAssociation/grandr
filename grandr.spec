@@ -7,7 +7,6 @@ URL:    http://www.x.org/
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 Patch0: grandr-0.1-strcmp.patch
 License: MIT
-BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: libx11-devel >= 1.0.0
 BuildRequires: libxrandr-devel >= 1.1.0.2
