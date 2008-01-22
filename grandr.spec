@@ -1,6 +1,6 @@
 Name: grandr
 Version: 0.1
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Interface to RandR extension
 Group: System/X11
 URL:    http://www.x.org/
@@ -9,10 +9,10 @@ Patch0: grandr-0.1-strcmp.patch
 License: MIT
 BuildRoot: %{_tmppath}/%{name}-root
 
-BuildRequires: libx11-devel >= 1.0.0
-BuildRequires: libxrandr-devel >= 1.1.0.2
-BuildRequires: libxrender-devel >= 0.9.0.2
-BuildRequires: x11-util-macros >= 1.0.1
+BuildRequires: x11-util-macros	>= 1.1.5
+BuildRequires: libx11-devel	>= 1.1.3
+BuildRequires: libxrandr-devel	>= 1.2.2
+BuildRequires: libxrender-devel	>= 0.9.4
 BuildRequires: libgtk+2-devel
 BuildRequires: libGConf2-devel
 
