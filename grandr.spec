@@ -1,6 +1,6 @@
 Name: grandr
 Version: 0.1
-Release: 8
+Release: 9
 Summary: Interface to RandR extension
 Group: System/X11
 URL:    http://www.x.org/
