@@ -32,7 +32,7 @@ RandR extension.
 
 %prep
 %setup -q -n %{name}-%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 export LIBS="-lX11 -lgthread-2.0"
