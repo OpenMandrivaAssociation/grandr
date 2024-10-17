@@ -3,7 +3,7 @@ Version: 0.1
 Release: 9
 Summary: Interface to RandR extension
 Group: System/X11
-URL:    http://www.x.org/
+URL:    https://www.x.org/
 Source0: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 # These are all upstream patches since the 0.1 release:
 Patch0: grandr-upstream-01-fix-segfault-at-startup.patch
